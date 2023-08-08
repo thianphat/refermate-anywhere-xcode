@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5779C2442A81CEB200575FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2432A81CEB200575FF4 /* AppDelegate.swift */; };
+		5779C2482A81CEB200575FF4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2462A81CEB200575FF4 /* Main.html */; };
+		5779C24A2A81CEB200575FF4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2492A81CEB200575FF4 /* Icon.png */; };
+		5779C24C2A81CEB200575FF4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5779C24B2A81CEB200575FF4 /* Style.css */; };
+		5779C24E2A81CEB200575FF4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C24D2A81CEB200575FF4 /* Script.js */; };
+		5779C2502A81CEB200575FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C24F2A81CEB200575FF4 /* ViewController.swift */; };
+		5779C2532A81CEB200575FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2512A81CEB200575FF4 /* Main.storyboard */; };
+		5779C2552A81CEB200575FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2542A81CEB200575FF4 /* Assets.xcassets */; };
+		5779C2612A81CEB300575FF4 /* RefermateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2602A81CEB300575FF4 /* RefermateTests.swift */; };
+		5779C26B2A81CEB300575FF4 /* RefermateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C26A2A81CEB300575FF4 /* RefermateUITests.swift */; };
+		5779C26D2A81CEB300575FF4 /* RefermateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C26C2A81CEB300575FF4 /* RefermateUITestsLaunchTests.swift */; };
+		5779C2732A81CEB300575FF4 /* Refermate Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5779C2722A81CEB300575FF4 /* Refermate Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5779C2782A81CEB300575FF4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2772A81CEB300575FF4 /* SafariExtensionHandler.swift */; };
+		5779C27A2A81CEB300575FF4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2792A81CEB300575FF4 /* SafariExtensionViewController.swift */; };
+		5779C27D2A81CEB300575FF4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C27C2A81CEB300575FF4 /* script.js */; };
+		5779C27F2A81CEB300575FF4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5779C27E2A81CEB300575FF4 /* ToolbarItemIcon.pdf */; };
+		5779C2822A81CEB300575FF4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2802A81CEB300575FF4 /* SafariExtensionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5779C25D2A81CEB300575FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5779C2382A81CEB200575FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5779C23F2A81CEB200575FF4;
+			remoteInfo = Refermate;
+		};
+		5779C2672A81CEB300575FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5779C2382A81CEB200575FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5779C23F2A81CEB200575FF4;
+			remoteInfo = Refermate;
+		};
+		5779C2742A81CEB300575FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5779C2382A81CEB200575FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5779C2712A81CEB300575FF4;
+			remoteInfo = "Refermate Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5779C28A2A81CEB300575FF4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5779C2732A81CEB300575FF4 /* Refermate Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5779C2402A81CEB200575FF4 /* Refermate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refermate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5779C2432A81CEB200575FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5779C2472A81CEB200575FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		5779C2492A81CEB200575FF4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5779C24B2A81CEB200575FF4 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		5779C24D2A81CEB200575FF4 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		5779C24F2A81CEB200575FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5779C2522A81CEB200575FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5779C2542A81CEB200575FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5779C2562A81CEB200575FF4 /* Refermate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Refermate.entitlements; sourceTree = "<group>"; };
+		5779C2572A81CEB200575FF4 /* Refermate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Refermate.entitlements; sourceTree = "<group>"; };
+		5779C25C2A81CEB300575FF4 /* RefermateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefermateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5779C2602A81CEB300575FF4 /* RefermateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefermateTests.swift; sourceTree = "<group>"; };
+		5779C2662A81CEB300575FF4 /* RefermateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefermateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5779C26A2A81CEB300575FF4 /* RefermateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefermateUITests.swift; sourceTree = "<group>"; };
+		5779C26C2A81CEB300575FF4 /* RefermateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefermateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5779C2722A81CEB300575FF4 /* Refermate Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Refermate Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5779C2772A81CEB300575FF4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		5779C2792A81CEB300575FF4 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		5779C27C2A81CEB300575FF4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		5779C27E2A81CEB300575FF4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		5779C2812A81CEB300575FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		5779C2832A81CEB300575FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5779C2842A81CEB300575FF4 /* Refermate_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Refermate_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5779C23D2A81CEB200575FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C2592A81CEB300575FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C2632A81CEB300575FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C26F2A81CEB300575FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5779C2372A81CEB200575FF4 = {
+			isa = PBXGroup;
+			children = (
+				5779C2422A81CEB200575FF4 /* Refermate */,
+				5779C25F2A81CEB300575FF4 /* RefermateTests */,
+				5779C2692A81CEB300575FF4 /* RefermateUITests */,
+				5779C2762A81CEB300575FF4 /* Refermate Extension */,
+				5779C2412A81CEB200575FF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5779C2412A81CEB200575FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5779C2402A81CEB200575FF4 /* Refermate.app */,
+				5779C25C2A81CEB300575FF4 /* RefermateTests.xctest */,
+				5779C2662A81CEB300575FF4 /* RefermateUITests.xctest */,
+				5779C2722A81CEB300575FF4 /* Refermate Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5779C2422A81CEB200575FF4 /* Refermate */ = {
+			isa = PBXGroup;
+			children = (
+				5779C2432A81CEB200575FF4 /* AppDelegate.swift */,
+				5779C24F2A81CEB200575FF4 /* ViewController.swift */,
+				5779C2512A81CEB200575FF4 /* Main.storyboard */,
+				5779C2542A81CEB200575FF4 /* Assets.xcassets */,
+				5779C2562A81CEB200575FF4 /* Refermate.entitlements */,
+				5779C2572A81CEB200575FF4 /* Refermate.entitlements */,
+				5779C2452A81CEB200575FF4 /* Resources */,
+			);
+			path = Refermate;
+			sourceTree = "<group>";
+		};
+		5779C2452A81CEB200575FF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5779C2462A81CEB200575FF4 /* Main.html */,
+				5779C2492A81CEB200575FF4 /* Icon.png */,
+				5779C24B2A81CEB200575FF4 /* Style.css */,
+				5779C24D2A81CEB200575FF4 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5779C25F2A81CEB300575FF4 /* RefermateTests */ = {
+			isa = PBXGroup;
+			children = (
+				5779C2602A81CEB300575FF4 /* RefermateTests.swift */,
+			);
+			path = RefermateTests;
+			sourceTree = "<group>";
+		};
+		5779C2692A81CEB300575FF4 /* RefermateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5779C26A2A81CEB300575FF4 /* RefermateUITests.swift */,
+				5779C26C2A81CEB300575FF4 /* RefermateUITestsLaunchTests.swift */,
+			);
+			path = RefermateUITests;
+			sourceTree = "<group>";
+		};
+		5779C2762A81CEB300575FF4 /* Refermate Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5779C2772A81CEB300575FF4 /* SafariExtensionHandler.swift */,
+				5779C2792A81CEB300575FF4 /* SafariExtensionViewController.swift */,
+				5779C2802A81CEB300575FF4 /* SafariExtensionViewController.xib */,
+				5779C2832A81CEB300575FF4 /* Info.plist */,
+				5779C2842A81CEB300575FF4 /* Refermate_Extension.entitlements */,
+				5779C27B2A81CEB300575FF4 /* Resources */,
+			);
+			path = "Refermate Extension";
+			sourceTree = "<group>";
+		};
+		5779C27B2A81CEB300575FF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5779C27C2A81CEB300575FF4 /* script.js */,
+				5779C27E2A81CEB300575FF4 /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5779C23F2A81CEB200575FF4 /* Refermate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5779C28B2A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "Refermate" */;
+			buildPhases = (
+				5779C23C2A81CEB200575FF4 /* Sources */,
+				5779C23D2A81CEB200575FF4 /* Frameworks */,
+				5779C23E2A81CEB200575FF4 /* Resources */,
+				5779C28A2A81CEB300575FF4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5779C2752A81CEB300575FF4 /* PBXTargetDependency */,
+			);
+			name = Refermate;
+			productName = Refermate;
+			productReference = 5779C2402A81CEB200575FF4 /* Refermate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5779C25B2A81CEB300575FF4 /* RefermateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5779C28E2A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "RefermateTests" */;
+			buildPhases = (
+				5779C2582A81CEB300575FF4 /* Sources */,
+				5779C2592A81CEB300575FF4 /* Frameworks */,
+				5779C25A2A81CEB300575FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5779C25E2A81CEB300575FF4 /* PBXTargetDependency */,
+			);
+			name = RefermateTests;
+			productName = RefermateTests;
+			productReference = 5779C25C2A81CEB300575FF4 /* RefermateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5779C2652A81CEB300575FF4 /* RefermateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5779C2912A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "RefermateUITests" */;
+			buildPhases = (
+				5779C2622A81CEB300575FF4 /* Sources */,
+				5779C2632A81CEB300575FF4 /* Frameworks */,
+				5779C2642A81CEB300575FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5779C2682A81CEB300575FF4 /* PBXTargetDependency */,
+			);
+			name = RefermateUITests;
+			productName = RefermateUITests;
+			productReference = 5779C2662A81CEB300575FF4 /* RefermateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5779C2712A81CEB300575FF4 /* Refermate Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5779C2872A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "Refermate Extension" */;
+			buildPhases = (
+				5779C26E2A81CEB300575FF4 /* Sources */,
+				5779C26F2A81CEB300575FF4 /* Frameworks */,
+				5779C2702A81CEB300575FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Refermate Extension";
+			productName = "Refermate Extension";
+			productReference = 5779C2722A81CEB300575FF4 /* Refermate Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5779C2382A81CEB200575FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5779C23F2A81CEB200575FF4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5779C25B2A81CEB300575FF4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5779C23F2A81CEB200575FF4;
+					};
+					5779C2652A81CEB300575FF4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5779C23F2A81CEB200575FF4;
+					};
+					5779C2712A81CEB300575FF4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5779C23B2A81CEB200575FF4 /* Build configuration list for PBXProject "Refermate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5779C2372A81CEB200575FF4;
+			productRefGroup = 5779C2412A81CEB200575FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5779C23F2A81CEB200575FF4 /* Refermate */,
+				5779C25B2A81CEB300575FF4 /* RefermateTests */,
+				5779C2652A81CEB300575FF4 /* RefermateUITests */,
+				5779C2712A81CEB300575FF4 /* Refermate Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5779C23E2A81CEB200575FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779C24A2A81CEB200575FF4 /* Icon.png in Resources */,
+				5779C2532A81CEB200575FF4 /* Main.storyboard in Resources */,
+				5779C24E2A81CEB200575FF4 /* Script.js in Resources */,
+				5779C2482A81CEB200575FF4 /* Main.html in Resources */,
+				5779C2552A81CEB200575FF4 /* Assets.xcassets in Resources */,
+				5779C24C2A81CEB200575FF4 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C25A2A81CEB300575FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C2642A81CEB300575FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C2702A81CEB300575FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779C2822A81CEB300575FF4 /* SafariExtensionViewController.xib in Resources */,
+				5779C27F2A81CEB300575FF4 /* ToolbarItemIcon.pdf in Resources */,
+				5779C27D2A81CEB300575FF4 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5779C23C2A81CEB200575FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779C2502A81CEB200575FF4 /* ViewController.swift in Sources */,
+				5779C2442A81CEB200575FF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C2582A81CEB300575FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779C2612A81CEB300575FF4 /* RefermateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C2622A81CEB300575FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779C26D2A81CEB300575FF4 /* RefermateUITestsLaunchTests.swift in Sources */,
+				5779C26B2A81CEB300575FF4 /* RefermateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779C26E2A81CEB300575FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779C27A2A81CEB300575FF4 /* SafariExtensionViewController.swift in Sources */,
+				5779C2782A81CEB300575FF4 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5779C25E2A81CEB300575FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5779C23F2A81CEB200575FF4 /* Refermate */;
+			targetProxy = 5779C25D2A81CEB300575FF4 /* PBXContainerItemProxy */;
+		};
+		5779C2682A81CEB300575FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5779C23F2A81CEB200575FF4 /* Refermate */;
+			targetProxy = 5779C2672A81CEB300575FF4 /* PBXContainerItemProxy */;
+		};
+		5779C2752A81CEB300575FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5779C2712A81CEB300575FF4 /* Refermate Extension */;
+			targetProxy = 5779C2742A81CEB300575FF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5779C2462A81CEB200575FF4 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5779C2472A81CEB200575FF4 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		5779C2512A81CEB200575FF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5779C2522A81CEB200575FF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5779C2802A81CEB300575FF4 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5779C2812A81CEB300575FF4 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5779C2852A81CEB300575FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5779C2862A81CEB300575FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5779C2882A81CEB300575FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Refermate Extension/Refermate_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Refermate Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Refermate Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.Refermate.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5779C2892A81CEB300575FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Refermate Extension/Refermate_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Refermate Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Refermate Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.Refermate.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5779C28C2A81CEB300575FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Refermate/Refermate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Refermate;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.Refermate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5779C28D2A81CEB300575FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Refermate/Refermate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Refermate;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.Refermate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5779C28F2A81CEB300575FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.RefermateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refermate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Refermate";
+			};
+			name = Debug;
+		};
+		5779C2902A81CEB300575FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.RefermateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refermate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Refermate";
+			};
+			name = Release;
+		};
+		5779C2922A81CEB300575FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.RefermateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Refermate;
+			};
+			name = Debug;
+		};
+		5779C2932A81CEB300575FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59EU3L7QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.RefermateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Refermate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5779C23B2A81CEB200575FF4 /* Build configuration list for PBXProject "Refermate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779C2852A81CEB300575FF4 /* Debug */,
+				5779C2862A81CEB300575FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5779C2872A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "Refermate Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779C2882A81CEB300575FF4 /* Debug */,
+				5779C2892A81CEB300575FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5779C28B2A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "Refermate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779C28C2A81CEB300575FF4 /* Debug */,
+				5779C28D2A81CEB300575FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5779C28E2A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "RefermateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779C28F2A81CEB300575FF4 /* Debug */,
+				5779C2902A81CEB300575FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5779C2912A81CEB300575FF4 /* Build configuration list for PBXNativeTarget "RefermateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779C2922A81CEB300575FF4 /* Debug */,
+				5779C2932A81CEB300575FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5779C2382A81CEB200575FF4 /* Project object */;
+}
