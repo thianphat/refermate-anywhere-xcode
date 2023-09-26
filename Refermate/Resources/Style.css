@@ -6,8 +6,10 @@
 
 :root {
     color-scheme: light dark;
-
+    --padding: 8px;
     --spacing: 20px;
+    --moveX: -167px;
+    --moveY: -25px;
 }
 
 html {
@@ -16,16 +18,32 @@ html {
 
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-
-    gap: var(--spacing);
+    gap: var(--padding);
     margin: 0 calc(var(--spacing) * 2);
     height: 100%;
-
     font: -apple-system-short-body;
     text-align: center;
+/*    background: linear-gradient(180deg, #D7D9D7 0%, rgba(220, 214, 235, 0.00) 100%);*/
+background-color: white;
+}
+
+body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
+    display: none;
+}
+
+body.platform-ios .platform-mac {
+    display: none;
+}
+
+body.platform-mac .platform-ios {
+    display: none;
+}
+
+body.platform-ios .platform-mac {
+    display: none;
 }
 
 body:not(.state-on, .state-off) :is(.state-on, .state-off) {
@@ -41,5 +59,192 @@ body.state-off :is(.state-on, .state-unknown) {
 }
 
 button {
-    font-size: 1em;
+    font-size: 1.25em;
+    border-radius: 5px;
+    background-color: #A0FFD5;
+    color: black;
+    width: 60%;
+    border: none;
+    height: 32px;
+}
+
+.header {
+font-size: 1.5em;
+color: black;
+margin-bottom: -2px;
+}
+
+.png {
+    height: 128px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+    margin: 0;
+}
+
+.body {
+    color: #26252A;
+    margin: 0;
+}
+
+.frame {
+    width: 220px;
+    transform-box: fill-box;
+    transform-origin: 50% 50%
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items:center;
+    justify-content: flex-start;
+    background-color: #F0F0F2;
+    padding: 4px 0 4px 4px;
+}
+
+.circles {
+    border-radius: 5px;
+    height: 8px;
+    width: 8px;
+}
+
+.circles.red {
+    background-color: #ED6A5E;
+}
+
+.circles.grey {background-color: #D6D6D8;}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 16px;
+    background-color: #ECECEE;
+}
+
+.main {
+    border-top: 1px solid #C6C6C8;
+    border-right: 1px solid #C6C6C8;
+    border-left: 1px solid #C6C6C8;
+    width: 85%;
+}
+
+.aside {
+    height: 64px;
+    width: 16px;
+    border-left: 1px solid #C6C6C8;
+    border-top: 1px solid #C6C6C8;
+    background-color: #fff;
+}
+
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #DCDDDC;
+    padding: 8px;
+}
+
+.refermate {
+    color: #26252A;
+}
+
+
+.filler {
+    height: 24px;
+    background-color: #fff;
+}
+
+.arrow {
+    position: absolute;
+    top: 116px;
+    right: 108px;
+    animation: 2.5s linear 0s 1 normal running arrow;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    transform-box: fill-box;
+    transform-origin: 50% 50%
+    height: 24px;
+}
+
+.checkbox {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #C6C6C8;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: 2.5s linear 0s 1 normal running check;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    transform-box: fill-box;
+    transform-origin: 50% 50%
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    50% {
+        transform: translateX(var(--moveX)) ttranslateY(var(--moveY));
+    }
+    75% {
+        transform: translateX(var(--moveX)) translateY(var(--moveY));
+    }
+    100% {
+        transform: translateX(var(--moveX)) translateY(var(--moveY));
+    }
+}
+
+
+@keyframes check {
+    0% {
+        background-color: rgba(255,255,255,1);
+
+    }
+    49.99% {
+        background-color: rgba(255,255,255,1);
+    }
+    50% {
+        background-color: rgba(255,255,255,1);
+    }
+    75% {
+        background-color: rgba(255,255,255,1);
+    }
+    80% {
+        background-color: rgba(64,134,247,1);
+     
+    }
+    85% {
+        background-color: rgba(64,134,247,1);
+    
+    }
+    90% {
+        background-color: rgba(64,134,247,1);
+  
+    }
+    100% {
+        background-color: rgba(64,134,247,1);
+  
+    }
+}
+
+button {
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #26252A;
+    color: white;
 }

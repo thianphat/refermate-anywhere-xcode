@@ -2,8 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSExtension</key>
 	<dict>
+		<key>SFSafariTool</key>
+		<string></string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.Safari.extension</string>
 		<key>NSExtensionPrincipalClass</key>
@@ -12,13 +19,13 @@
 		<array>
 			<dict>
 				<key>Script</key>
-				<string>script.js</string>
+				<string>contentScript.bundle.js</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
 		<dict>
 			<key>Action</key>
-			<string>Command</string>
+			<string>Popover</string>
 			<key>Identifier</key>
 			<string>Button</string>
 			<key>Image</key>
@@ -28,15 +35,11 @@
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
-			<key>Allowed Domains</key>
-			<array>
-				<string>example.com</string>
-			</array>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>This is Refermate Extension. You should tell us what your extension does here.</string>
+	<string>Refer and earn commission, or shop and earn cash back. Choose from over 30,000 of your favorite online stores.</string>
 </dict>
 </plist>

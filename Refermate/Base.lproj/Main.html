@@ -10,10 +10,47 @@
     <script src="../Script.js" defer></script>
 </head>
 <body>
-    <img src="../Icon.png" width="128" height="128" alt="Refermate Icon">
-    <p class="state-unknown">You can turn on Refermate’s extension in Safari Extensions preferences.</p>
-    <p class="state-on">Refermate’s extension is currently on. You can turn it off in Safari Extensions preferences.</p>
-    <p class="state-off">Refermate’s extension is currently off. You can turn it on in Safari Extensions preferences.</p>
-    <button class="open-preferences">Quit and Open Safari Extensions Preferences…</button>
+    <img src="../success-img.png" alt="Refermate Anywhere GIF" class="platform-mac state-on png">
+    <div class="platform-mac state-off frame">
+        <div class="top-bar">
+            <div class="circles red"></div>
+            <div class="circles grey"></div>
+            <div class="circles grey"></div>
+        </div>
+        <div class="content">
+            <div class="main">
+                <div class="selection">
+                    <div class="checkbox">
+                    <img class="checkmark" src="../checkmark.png"
+                        height="6px"
+                    >
+                    </div>
+                    <img class="logo" src="../refermate-logo.png"
+                        height="24px"
+                    >
+                    <div class="refermate">Refermate</div>
+                </div>
+                <div class="filler">
+                    
+                    </div>
+                <div>
+                    <img class="arrow" src="../arrow.png" height="24px">
+                </div>
+            </div>
+            <div class="aside"></div>
+        </div>
+    </div>
+    
+    <div class="text-content">
+        <p class="platform-mac state-off header">One last step</p>
+        <p class="platform-mac state-on header">Congrats!</p>
+        <p class="platform-ios">You can turn on Refermate Anywhere’s Safari extension in Settings.</p>
+        <p class="platform-mac state-unknown body">You can turn on Refermate Anywhere’s extension in Safari Extensions preferences.</p>
+        <p class="platform-mac state-on body">Refermate Anywhere’s extension is currently on. You can turn it off in Safari Extensions preferences.</p>
+        <p class="platform-mac state-off body">Refermate Anywhere’s extension is currently off. You can turn it on in Safari Extensions preferences.</p>
+    </div>
+
+    <button class="platform-mac open-preferences state-off">Quit and Open Safari Extensions Preferences…</button>
+    <button class="platform-mac close-app-window state-on">Quit</button>
 </body>
 </html>

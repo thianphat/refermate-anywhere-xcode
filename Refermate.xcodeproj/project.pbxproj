@@ -9,21 +9,71 @@
 /* Begin PBXBuildFile section */
 		5779C2442A81CEB200575FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2432A81CEB200575FF4 /* AppDelegate.swift */; };
 		5779C2482A81CEB200575FF4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2462A81CEB200575FF4 /* Main.html */; };
-		5779C24A2A81CEB200575FF4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2492A81CEB200575FF4 /* Icon.png */; };
-		5779C24C2A81CEB200575FF4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5779C24B2A81CEB200575FF4 /* Style.css */; };
 		5779C24E2A81CEB200575FF4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C24D2A81CEB200575FF4 /* Script.js */; };
 		5779C2502A81CEB200575FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C24F2A81CEB200575FF4 /* ViewController.swift */; };
 		5779C2532A81CEB200575FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2512A81CEB200575FF4 /* Main.storyboard */; };
-		5779C2552A81CEB200575FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2542A81CEB200575FF4 /* Assets.xcassets */; };
 		5779C2612A81CEB300575FF4 /* RefermateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2602A81CEB300575FF4 /* RefermateTests.swift */; };
 		5779C26B2A81CEB300575FF4 /* RefermateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C26A2A81CEB300575FF4 /* RefermateUITests.swift */; };
 		5779C26D2A81CEB300575FF4 /* RefermateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C26C2A81CEB300575FF4 /* RefermateUITestsLaunchTests.swift */; };
 		5779C2732A81CEB300575FF4 /* Refermate Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5779C2722A81CEB300575FF4 /* Refermate Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5779C2782A81CEB300575FF4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2772A81CEB300575FF4 /* SafariExtensionHandler.swift */; };
 		5779C27A2A81CEB300575FF4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2792A81CEB300575FF4 /* SafariExtensionViewController.swift */; };
-		5779C27D2A81CEB300575FF4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C27C2A81CEB300575FF4 /* script.js */; };
-		5779C27F2A81CEB300575FF4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5779C27E2A81CEB300575FF4 /* ToolbarItemIcon.pdf */; };
 		5779C2822A81CEB300575FF4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2802A81CEB300575FF4 /* SafariExtensionViewController.xib */; };
+		5779C2BB2A81EC5100575FF4 /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2942A81EC5000575FF4 /* background.bundle.js */; };
+		5779C2BC2A81EC5100575FF4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2952A81EC5000575FF4 /* popup.html */; };
+		5779C2BD2A81EC5100575FF4 /* 558566d84fb0bd44a86c.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2962A81EC5000575FF4 /* 558566d84fb0bd44a86c.woff2 */; };
+		5779C2BE2A81EC5100575FF4 /* injectAutoApply.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2972A81EC5000575FF4 /* injectAutoApply.bundle.js */; };
+		5779C2BF2A81EC5100575FF4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2982A81EC5000575FF4 /* manifest.json */; };
+		5779C2C02A81EC5100575FF4 /* f97373ae92fbfbb95c50.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2992A81EC5000575FF4 /* f97373ae92fbfbb95c50.woff2 */; };
+		5779C2C12A81EC5100575FF4 /* 6ad83effd3a7afb53a15.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29A2A81EC5000575FF4 /* 6ad83effd3a7afb53a15.png */; };
+		5779C2C22A81EC5100575FF4 /* dc1166bf922ba14bec8d.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29C2A81EC5000575FF4 /* dc1166bf922ba14bec8d.svg */; };
+		5779C2C32A81EC5100575FF4 /* 4bc562028354f5941b42.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29D2A81EC5000575FF4 /* 4bc562028354f5941b42.woff2 */; };
+		5779C2C42A81EC5100575FF4 /* 86ea8392c20478a0d46e.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29E2A81EC5000575FF4 /* 86ea8392c20478a0d46e.woff2 */; };
+		5779C2C52A81EC5100575FF4 /* 835ac65f7e624a326409.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A02A81EC5000575FF4 /* 835ac65f7e624a326409.png */; };
+		5779C2C62A81EC5100575FF4 /* 1eadb587990a6bc2c0ba.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A12A81EC5000575FF4 /* 1eadb587990a6bc2c0ba.svg */; };
+		5779C2C72A81EC5100575FF4 /* 91e9869927d002aceb8c.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A22A81EC5000575FF4 /* 91e9869927d002aceb8c.svg */; };
+		5779C2C82A81EC5100575FF4 /* e0860da7aaefd6dd2a0c.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A32A81EC5000575FF4 /* e0860da7aaefd6dd2a0c.woff2 */; };
+		5779C2C92A81EC5100575FF4 /* fd9ddee319325e3c92c8.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A42A81EC5000575FF4 /* fd9ddee319325e3c92c8.svg */; };
+		5779C2CA2A81EC5100575FF4 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A52A81EC5000575FF4 /* img */; };
+		5779C2CB2A81EC5100575FF4 /* 524b69ba6d9abb32f085.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A62A81EC5000575FF4 /* 524b69ba6d9abb32f085.woff2 */; };
+		5779C2CC2A81EC5100575FF4 /* cc5663daff99e864c43d.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A72A81EC5000575FF4 /* cc5663daff99e864c43d.woff2 */; };
+		5779C2CD2A81EC5100575FF4 /* 4b9e7d5f95a278e2d22e.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A82A81EC5000575FF4 /* 4b9e7d5f95a278e2d22e.woff2 */; };
+		5779C2CE2A81EC5100575FF4 /* 90f90b13a872d0d174bb.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A92A81EC5000575FF4 /* 90f90b13a872d0d174bb.woff2 */; };
+		5779C2CF2A81EC5100575FF4 /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AA2A81EC5000575FF4 /* popup.bundle.js */; };
+		5779C2D02A81EC5100575FF4 /* 2230fb2acd8ec402888e.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AB2A81EC5000575FF4 /* 2230fb2acd8ec402888e.woff2 */; };
+		5779C2D12A81EC5100575FF4 /* 3cac30d2e914848c63db.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AC2A81EC5000575FF4 /* 3cac30d2e914848c63db.woff2 */; };
+		5779C2D22A81EC5100575FF4 /* 873f5272572749b65934.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AD2A81EC5000575FF4 /* 873f5272572749b65934.woff2 */; };
+		5779C2D32A81EC5100575FF4 /* 85baf9766733d42bd24f.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AE2A81EC5000575FF4 /* 85baf9766733d42bd24f.png */; };
+		5779C2D42A81EC5100575FF4 /* ed67b41ce63b521f3e77.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AF2A81EC5000575FF4 /* ed67b41ce63b521f3e77.svg */; };
+		5779C2D52A81EC5100575FF4 /* 0fdfca52c4373f2137e6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B02A81EC5000575FF4 /* 0fdfca52c4373f2137e6.svg */; };
+		5779C2D62A81EC5100575FF4 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B12A81EC5000575FF4 /* fonts */; };
+		5779C2D72A81EC5100575FF4 /* 348776f0e67911f4f72e.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B32A81EC5100575FF4 /* 348776f0e67911f4f72e.svg */; };
+		5779C2D82A81EC5100575FF4 /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B42A81EC5100575FF4 /* contentScript.bundle.js */; };
+		5779C2D92A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B62A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg */; };
+		5779C2DB2A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B82A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg */; };
+		5779C2DC2A81EC5100575FF4 /* 5167c5352bbc00240c3a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B92A81EC5100575FF4 /* 5167c5352bbc00240c3a.png */; };
+		5779C2DD2A81EC5100575FF4 /* 172d496f570e066f9014.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2BA2A81EC5100575FF4 /* 172d496f570e066f9014.svg */; };
+		5779C2DF2A81ECCC00575FF4 /* SafariPopupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2DE2A81ECCC00575FF4 /* SafariPopupManager.swift */; };
+		5779C2E52A81F86900575FF4 /* JsonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2E42A81F86900575FF4 /* JsonTools.swift */; };
+		5779C2E72A820A7C00575FF4 /* SafariTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2E62A820A7C00575FF4 /* SafariTools.swift */; };
+		5779C2EB2A8286CE00575FF4 /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2EA2A8286CE00575FF4 /* MessageHandler.swift */; };
+		5779C2EE2A829A9700575FF4 /* RefermateStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2EC2A829A9700575FF4 /* RefermateStore.xcdatamodeld */; };
+		5779C2F12A829B3E00575FF4 /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2EF2A829B3E00575FF4 /* Entity+CoreDataClass.swift */; };
+		5779C2F22A829B3E00575FF4 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2F02A829B3E00575FF4 /* Entity+CoreDataProperties.swift */; };
+		5779C2F42A829B6800575FF4 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2F32A829B6800575FF4 /* Storage.swift */; };
+		578249872A8E708C00A6D56A /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 578249862A8E708C00A6D56A /* ToolbarItemIcon.pdf */; };
+		579B4D102A8D2B1E0023C03F /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0A2A8D2B1E0023C03F /* checkmark.png */; };
+		579B4D112A8D2B1E0023C03F /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0B2A8D2B1E0023C03F /* arrow.png */; };
+		579B4D122A8D2B1E0023C03F /* refermate-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0C2A8D2B1E0023C03F /* refermate-logo.png */; };
+		579B4D132A8D2B1E0023C03F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0D2A8D2B1E0023C03F /* Style.css */; };
+		579B4D142A8D2B1E0023C03F /* success-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0E2A8D2B1E0023C03F /* success-img.png */; };
+		579B4D152A8D2B1E0023C03F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0F2A8D2B1E0023C03F /* Icon.png */; };
+		579B4D742A8D3E8C0023C03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D732A8D3E8C0023C03F /* Assets.xcassets */; };
+		579B4D752A8D3E8C0023C03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D732A8D3E8C0023C03F /* Assets.xcassets */; };
+		579B4D762A8D56740023C03F /* RefermateStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2EC2A829A9700575FF4 /* RefermateStore.xcdatamodeld */; };
+		579B4D772A8D567C0023C03F /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2F02A829B3E00575FF4 /* Entity+CoreDataProperties.swift */; };
+		579B4D782A8D567C0023C03F /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2EF2A829B3E00575FF4 /* Entity+CoreDataClass.swift */; };
+		57A10C542A86B341007A2027 /* RFXHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A10C532A86B341007A2027 /* RFXHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,15 +115,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		574833332AC32F4D00BE5D3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5779C2402A81CEB200575FF4 /* Refermate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refermate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5779C2432A81CEB200575FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5779C2472A81CEB200575FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		5779C2492A81CEB200575FF4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		5779C24B2A81CEB200575FF4 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		5779C24D2A81CEB200575FF4 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		5779C24F2A81CEB200575FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5779C2522A81CEB200575FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5779C2542A81CEB200575FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5779C2562A81CEB200575FF4 /* Refermate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Refermate.entitlements; sourceTree = "<group>"; };
 		5779C2572A81CEB200575FF4 /* Refermate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Refermate.entitlements; sourceTree = "<group>"; };
 		5779C25C2A81CEB300575FF4 /* RefermateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefermateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,11 +132,61 @@
 		5779C2722A81CEB300575FF4 /* Refermate Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Refermate Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5779C2772A81CEB300575FF4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		5779C2792A81CEB300575FF4 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
-		5779C27C2A81CEB300575FF4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		5779C27E2A81CEB300575FF4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		5779C2812A81CEB300575FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		5779C2832A81CEB300575FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5779C2842A81CEB300575FF4 /* Refermate_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Refermate_Extension.entitlements; sourceTree = "<group>"; };
+		5779C2942A81EC5000575FF4 /* background.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.bundle.js; sourceTree = "<group>"; };
+		5779C2952A81EC5000575FF4 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		5779C2962A81EC5000575FF4 /* 558566d84fb0bd44a86c.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 558566d84fb0bd44a86c.woff2; sourceTree = "<group>"; };
+		5779C2972A81EC5000575FF4 /* injectAutoApply.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = injectAutoApply.bundle.js; sourceTree = "<group>"; };
+		5779C2982A81EC5000575FF4 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		5779C2992A81EC5000575FF4 /* f97373ae92fbfbb95c50.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = f97373ae92fbfbb95c50.woff2; sourceTree = "<group>"; };
+		5779C29A2A81EC5000575FF4 /* 6ad83effd3a7afb53a15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6ad83effd3a7afb53a15.png; sourceTree = "<group>"; };
+		5779C29C2A81EC5000575FF4 /* dc1166bf922ba14bec8d.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dc1166bf922ba14bec8d.svg; sourceTree = "<group>"; };
+		5779C29D2A81EC5000575FF4 /* 4bc562028354f5941b42.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4bc562028354f5941b42.woff2; sourceTree = "<group>"; };
+		5779C29E2A81EC5000575FF4 /* 86ea8392c20478a0d46e.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 86ea8392c20478a0d46e.woff2; sourceTree = "<group>"; };
+		5779C2A02A81EC5000575FF4 /* 835ac65f7e624a326409.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 835ac65f7e624a326409.png; sourceTree = "<group>"; };
+		5779C2A12A81EC5000575FF4 /* 1eadb587990a6bc2c0ba.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1eadb587990a6bc2c0ba.svg; sourceTree = "<group>"; };
+		5779C2A22A81EC5000575FF4 /* 91e9869927d002aceb8c.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 91e9869927d002aceb8c.svg; sourceTree = "<group>"; };
+		5779C2A32A81EC5000575FF4 /* e0860da7aaefd6dd2a0c.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = e0860da7aaefd6dd2a0c.woff2; sourceTree = "<group>"; };
+		5779C2A42A81EC5000575FF4 /* fd9ddee319325e3c92c8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fd9ddee319325e3c92c8.svg; sourceTree = "<group>"; };
+		5779C2A52A81EC5000575FF4 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		5779C2A62A81EC5000575FF4 /* 524b69ba6d9abb32f085.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 524b69ba6d9abb32f085.woff2; sourceTree = "<group>"; };
+		5779C2A72A81EC5000575FF4 /* cc5663daff99e864c43d.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc5663daff99e864c43d.woff2; sourceTree = "<group>"; };
+		5779C2A82A81EC5000575FF4 /* 4b9e7d5f95a278e2d22e.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4b9e7d5f95a278e2d22e.woff2; sourceTree = "<group>"; };
+		5779C2A92A81EC5000575FF4 /* 90f90b13a872d0d174bb.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 90f90b13a872d0d174bb.woff2; sourceTree = "<group>"; };
+		5779C2AA2A81EC5000575FF4 /* popup.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.bundle.js; sourceTree = "<group>"; };
+		5779C2AB2A81EC5000575FF4 /* 2230fb2acd8ec402888e.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2230fb2acd8ec402888e.woff2; sourceTree = "<group>"; };
+		5779C2AC2A81EC5000575FF4 /* 3cac30d2e914848c63db.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3cac30d2e914848c63db.woff2; sourceTree = "<group>"; };
+		5779C2AD2A81EC5000575FF4 /* 873f5272572749b65934.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 873f5272572749b65934.woff2; sourceTree = "<group>"; };
+		5779C2AE2A81EC5000575FF4 /* 85baf9766733d42bd24f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 85baf9766733d42bd24f.png; sourceTree = "<group>"; };
+		5779C2AF2A81EC5000575FF4 /* ed67b41ce63b521f3e77.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ed67b41ce63b521f3e77.svg; sourceTree = "<group>"; };
+		5779C2B02A81EC5000575FF4 /* 0fdfca52c4373f2137e6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0fdfca52c4373f2137e6.svg; sourceTree = "<group>"; };
+		5779C2B12A81EC5000575FF4 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		5779C2B32A81EC5100575FF4 /* 348776f0e67911f4f72e.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 348776f0e67911f4f72e.svg; sourceTree = "<group>"; };
+		5779C2B42A81EC5100575FF4 /* contentScript.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentScript.bundle.js; sourceTree = "<group>"; };
+		5779C2B62A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 84f9a968553faaa7a88e.svg; sourceTree = "<group>"; };
+		5779C2B82A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2a511ee240dd60bdb75e.svg; sourceTree = "<group>"; };
+		5779C2B92A81EC5100575FF4 /* 5167c5352bbc00240c3a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5167c5352bbc00240c3a.png; sourceTree = "<group>"; };
+		5779C2BA2A81EC5100575FF4 /* 172d496f570e066f9014.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 172d496f570e066f9014.svg; sourceTree = "<group>"; };
+		5779C2DE2A81ECCC00575FF4 /* SafariPopupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariPopupManager.swift; sourceTree = "<group>"; };
+		5779C2E42A81F86900575FF4 /* JsonTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTools.swift; sourceTree = "<group>"; };
+		5779C2E62A820A7C00575FF4 /* SafariTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariTools.swift; sourceTree = "<group>"; };
+		5779C2EA2A8286CE00575FF4 /* MessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHandler.swift; sourceTree = "<group>"; };
+		5779C2ED2A829A9700575FF4 /* RefermateStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RefermateStore.xcdatamodel; sourceTree = "<group>"; };
+		5779C2EF2A829B3E00575FF4 /* Entity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5779C2F02A829B3E00575FF4 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5779C2F32A829B6800575FF4 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		5779C2F72A83DAAD00575FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		578249862A8E708C00A6D56A /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ToolbarItemIcon.pdf; path = ../../../../../Documents/ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		579B4D0A2A8D2B1E0023C03F /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		579B4D0B2A8D2B1E0023C03F /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		579B4D0C2A8D2B1E0023C03F /* refermate-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refermate-logo.png"; sourceTree = "<group>"; };
+		579B4D0D2A8D2B1E0023C03F /* Style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		579B4D0E2A8D2B1E0023C03F /* success-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success-img.png"; sourceTree = "<group>"; };
+		579B4D0F2A8D2B1E0023C03F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		579B4D732A8D3E8C0023C03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57A10C532A86B341007A2027 /* RFXHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFXHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +224,16 @@
 		5779C2372A81CEB200575FF4 = {
 			isa = PBXGroup;
 			children = (
+				574833332AC32F4D00BE5D3F /* README.md */,
+				5779C2EF2A829B3E00575FF4 /* Entity+CoreDataClass.swift */,
+				5779C2F02A829B3E00575FF4 /* Entity+CoreDataProperties.swift */,
+				5779C2EC2A829A9700575FF4 /* RefermateStore.xcdatamodeld */,
 				5779C2422A81CEB200575FF4 /* Refermate */,
 				5779C25F2A81CEB300575FF4 /* RefermateTests */,
 				5779C2692A81CEB300575FF4 /* RefermateUITests */,
 				5779C2762A81CEB300575FF4 /* Refermate Extension */,
 				5779C2412A81CEB200575FF4 /* Products */,
+				57A10C4C2A868E69007A2027 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,12 +251,13 @@
 		5779C2422A81CEB200575FF4 /* Refermate */ = {
 			isa = PBXGroup;
 			children = (
+				5779C2F72A83DAAD00575FF4 /* Info.plist */,
 				5779C2432A81CEB200575FF4 /* AppDelegate.swift */,
 				5779C24F2A81CEB200575FF4 /* ViewController.swift */,
 				5779C2512A81CEB200575FF4 /* Main.storyboard */,
-				5779C2542A81CEB200575FF4 /* Assets.xcassets */,
 				5779C2562A81CEB200575FF4 /* Refermate.entitlements */,
 				5779C2572A81CEB200575FF4 /* Refermate.entitlements */,
+				579B4D732A8D3E8C0023C03F /* Assets.xcassets */,
 				5779C2452A81CEB200575FF4 /* Resources */,
 			);
 			path = Refermate;
@@ -162,9 +266,13 @@
 		5779C2452A81CEB200575FF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				579B4D0B2A8D2B1E0023C03F /* arrow.png */,
+				579B4D0A2A8D2B1E0023C03F /* checkmark.png */,
+				579B4D0F2A8D2B1E0023C03F /* Icon.png */,
+				579B4D0C2A8D2B1E0023C03F /* refermate-logo.png */,
+				579B4D0D2A8D2B1E0023C03F /* Style.css */,
+				579B4D0E2A8D2B1E0023C03F /* success-img.png */,
 				5779C2462A81CEB200575FF4 /* Main.html */,
-				5779C2492A81CEB200575FF4 /* Icon.png */,
-				5779C24B2A81CEB200575FF4 /* Style.css */,
 				5779C24D2A81CEB200575FF4 /* Script.js */,
 			);
 			path = Resources;
@@ -190,12 +298,18 @@
 		5779C2762A81CEB300575FF4 /* Refermate Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5779C2EA2A8286CE00575FF4 /* MessageHandler.swift */,
+				5779C2DE2A81ECCC00575FF4 /* SafariPopupManager.swift */,
 				5779C2772A81CEB300575FF4 /* SafariExtensionHandler.swift */,
 				5779C2792A81CEB300575FF4 /* SafariExtensionViewController.swift */,
 				5779C2802A81CEB300575FF4 /* SafariExtensionViewController.xib */,
 				5779C2832A81CEB300575FF4 /* Info.plist */,
 				5779C2842A81CEB300575FF4 /* Refermate_Extension.entitlements */,
 				5779C27B2A81CEB300575FF4 /* Resources */,
+				5779C2E42A81F86900575FF4 /* JsonTools.swift */,
+				5779C2E62A820A7C00575FF4 /* SafariTools.swift */,
+				5779C2F32A829B6800575FF4 /* Storage.swift */,
+				57A10C532A86B341007A2027 /* RFXHandler.swift */,
 			);
 			path = "Refermate Extension";
 			sourceTree = "<group>";
@@ -203,10 +317,51 @@
 		5779C27B2A81CEB300575FF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5779C27C2A81CEB300575FF4 /* script.js */,
-				5779C27E2A81CEB300575FF4 /* ToolbarItemIcon.pdf */,
+				578249862A8E708C00A6D56A /* ToolbarItemIcon.pdf */,
+				5779C2B02A81EC5000575FF4 /* 0fdfca52c4373f2137e6.svg */,
+				5779C2A12A81EC5000575FF4 /* 1eadb587990a6bc2c0ba.svg */,
+				5779C2B82A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg */,
+				5779C2AC2A81EC5000575FF4 /* 3cac30d2e914848c63db.woff2 */,
+				5779C2A82A81EC5000575FF4 /* 4b9e7d5f95a278e2d22e.woff2 */,
+				5779C29D2A81EC5000575FF4 /* 4bc562028354f5941b42.woff2 */,
+				5779C29A2A81EC5000575FF4 /* 6ad83effd3a7afb53a15.png */,
+				5779C2B62A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg */,
+				5779C2AE2A81EC5000575FF4 /* 85baf9766733d42bd24f.png */,
+				5779C29E2A81EC5000575FF4 /* 86ea8392c20478a0d46e.woff2 */,
+				5779C2A92A81EC5000575FF4 /* 90f90b13a872d0d174bb.woff2 */,
+				5779C2A22A81EC5000575FF4 /* 91e9869927d002aceb8c.svg */,
+				5779C2BA2A81EC5100575FF4 /* 172d496f570e066f9014.svg */,
+				5779C2A62A81EC5000575FF4 /* 524b69ba6d9abb32f085.woff2 */,
+				5779C2A02A81EC5000575FF4 /* 835ac65f7e624a326409.png */,
+				5779C2AD2A81EC5000575FF4 /* 873f5272572749b65934.woff2 */,
+				5779C2AB2A81EC5000575FF4 /* 2230fb2acd8ec402888e.woff2 */,
+				5779C2B92A81EC5100575FF4 /* 5167c5352bbc00240c3a.png */,
+				5779C2B32A81EC5100575FF4 /* 348776f0e67911f4f72e.svg */,
+				5779C2962A81EC5000575FF4 /* 558566d84fb0bd44a86c.woff2 */,
+				5779C2942A81EC5000575FF4 /* background.bundle.js */,
+				5779C2A72A81EC5000575FF4 /* cc5663daff99e864c43d.woff2 */,
+				5779C2B42A81EC5100575FF4 /* contentScript.bundle.js */,
+				5779C29C2A81EC5000575FF4 /* dc1166bf922ba14bec8d.svg */,
+				5779C2A32A81EC5000575FF4 /* e0860da7aaefd6dd2a0c.woff2 */,
+				5779C2AF2A81EC5000575FF4 /* ed67b41ce63b521f3e77.svg */,
+				5779C2992A81EC5000575FF4 /* f97373ae92fbfbb95c50.woff2 */,
+				5779C2A42A81EC5000575FF4 /* fd9ddee319325e3c92c8.svg */,
+				5779C2B12A81EC5000575FF4 /* fonts */,
+				5779C2A52A81EC5000575FF4 /* img */,
+				5779C2972A81EC5000575FF4 /* injectAutoApply.bundle.js */,
+				5779C2982A81EC5000575FF4 /* manifest.json */,
+				5779C2AA2A81EC5000575FF4 /* popup.bundle.js */,
+				5779C2952A81EC5000575FF4 /* popup.html */,
 			);
-			path = Resources;
+			name = Resources;
+			path = "../../refermate-anywhere-v2/Resources";
+			sourceTree = "<group>";
+		};
+		57A10C4C2A868E69007A2027 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +382,8 @@
 				5779C2752A81CEB300575FF4 /* PBXTargetDependency */,
 			);
 			name = Refermate;
+			packageProductDependencies = (
+			);
 			productName = Refermate;
 			productReference = 5779C2402A81CEB200575FF4 /* Refermate.app */;
 			productType = "com.apple.product-type.application";
@@ -280,6 +437,8 @@
 			dependencies = (
 			);
 			name = "Refermate Extension";
+			packageProductDependencies = (
+			);
 			productName = "Refermate Extension";
 			productReference = 5779C2722A81CEB300575FF4 /* Refermate Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -319,6 +478,8 @@
 				Base,
 			);
 			mainGroup = 5779C2372A81CEB200575FF4;
+			packageReferences = (
+			);
 			productRefGroup = 5779C2412A81CEB200575FF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,12 +497,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5779C24A2A81CEB200575FF4 /* Icon.png in Resources */,
+				579B4D142A8D2B1E0023C03F /* success-img.png in Resources */,
 				5779C2532A81CEB200575FF4 /* Main.storyboard in Resources */,
+				579B4D152A8D2B1E0023C03F /* Icon.png in Resources */,
+				579B4D132A8D2B1E0023C03F /* Style.css in Resources */,
+				579B4D742A8D3E8C0023C03F /* Assets.xcassets in Resources */,
+				579B4D112A8D2B1E0023C03F /* arrow.png in Resources */,
+				579B4D102A8D2B1E0023C03F /* checkmark.png in Resources */,
+				579B4D122A8D2B1E0023C03F /* refermate-logo.png in Resources */,
 				5779C24E2A81CEB200575FF4 /* Script.js in Resources */,
 				5779C2482A81CEB200575FF4 /* Main.html in Resources */,
-				5779C2552A81CEB200575FF4 /* Assets.xcassets in Resources */,
-				5779C24C2A81CEB200575FF4 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,9 +528,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5779C2CC2A81EC5100575FF4 /* cc5663daff99e864c43d.woff2 in Resources */,
+				5779C2D22A81EC5100575FF4 /* 873f5272572749b65934.woff2 in Resources */,
+				5779C2D02A81EC5100575FF4 /* 2230fb2acd8ec402888e.woff2 in Resources */,
+				5779C2C42A81EC5100575FF4 /* 86ea8392c20478a0d46e.woff2 in Resources */,
+				5779C2C22A81EC5100575FF4 /* dc1166bf922ba14bec8d.svg in Resources */,
 				5779C2822A81CEB300575FF4 /* SafariExtensionViewController.xib in Resources */,
-				5779C27F2A81CEB300575FF4 /* ToolbarItemIcon.pdf in Resources */,
-				5779C27D2A81CEB300575FF4 /* script.js in Resources */,
+				5779C2D82A81EC5100575FF4 /* contentScript.bundle.js in Resources */,
+				5779C2CB2A81EC5100575FF4 /* 524b69ba6d9abb32f085.woff2 in Resources */,
+				5779C2D52A81EC5100575FF4 /* 0fdfca52c4373f2137e6.svg in Resources */,
+				5779C2D62A81EC5100575FF4 /* fonts in Resources */,
+				5779C2C72A81EC5100575FF4 /* 91e9869927d002aceb8c.svg in Resources */,
+				5779C2DC2A81EC5100575FF4 /* 5167c5352bbc00240c3a.png in Resources */,
+				5779C2D72A81EC5100575FF4 /* 348776f0e67911f4f72e.svg in Resources */,
+				5779C2BC2A81EC5100575FF4 /* popup.html in Resources */,
+				5779C2D32A81EC5100575FF4 /* 85baf9766733d42bd24f.png in Resources */,
+				5779C2CE2A81EC5100575FF4 /* 90f90b13a872d0d174bb.woff2 in Resources */,
+				578249872A8E708C00A6D56A /* ToolbarItemIcon.pdf in Resources */,
+				5779C2D42A81EC5100575FF4 /* ed67b41ce63b521f3e77.svg in Resources */,
+				5779C2BE2A81EC5100575FF4 /* injectAutoApply.bundle.js in Resources */,
+				5779C2C92A81EC5100575FF4 /* fd9ddee319325e3c92c8.svg in Resources */,
+				5779C2DD2A81EC5100575FF4 /* 172d496f570e066f9014.svg in Resources */,
+				5779C2DB2A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg in Resources */,
+				5779C2D12A81EC5100575FF4 /* 3cac30d2e914848c63db.woff2 in Resources */,
+				5779C2C32A81EC5100575FF4 /* 4bc562028354f5941b42.woff2 in Resources */,
+				5779C2C02A81EC5100575FF4 /* f97373ae92fbfbb95c50.woff2 in Resources */,
+				5779C2C82A81EC5100575FF4 /* e0860da7aaefd6dd2a0c.woff2 in Resources */,
+				5779C2CF2A81EC5100575FF4 /* popup.bundle.js in Resources */,
+				5779C2D92A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg in Resources */,
+				5779C2BF2A81EC5100575FF4 /* manifest.json in Resources */,
+				5779C2C52A81EC5100575FF4 /* 835ac65f7e624a326409.png in Resources */,
+				5779C2BD2A81EC5100575FF4 /* 558566d84fb0bd44a86c.woff2 in Resources */,
+				5779C2C62A81EC5100575FF4 /* 1eadb587990a6bc2c0ba.svg in Resources */,
+				5779C2C12A81EC5100575FF4 /* 6ad83effd3a7afb53a15.png in Resources */,
+				5779C2CD2A81EC5100575FF4 /* 4b9e7d5f95a278e2d22e.woff2 in Resources */,
+				5779C2CA2A81EC5100575FF4 /* img in Resources */,
+				579B4D752A8D3E8C0023C03F /* Assets.xcassets in Resources */,
+				5779C2BB2A81EC5100575FF4 /* background.bundle.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,8 +575,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579B4D772A8D567C0023C03F /* Entity+CoreDataProperties.swift in Sources */,
 				5779C2502A81CEB200575FF4 /* ViewController.swift in Sources */,
+				579B4D782A8D567C0023C03F /* Entity+CoreDataClass.swift in Sources */,
 				5779C2442A81CEB200575FF4 /* AppDelegate.swift in Sources */,
+				579B4D762A8D56740023C03F /* RefermateStore.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +604,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5779C2E72A820A7C00575FF4 /* SafariTools.swift in Sources */,
 				5779C27A2A81CEB300575FF4 /* SafariExtensionViewController.swift in Sources */,
+				5779C2EE2A829A9700575FF4 /* RefermateStore.xcdatamodeld in Sources */,
+				5779C2F22A829B3E00575FF4 /* Entity+CoreDataProperties.swift in Sources */,
+				5779C2E52A81F86900575FF4 /* JsonTools.swift in Sources */,
 				5779C2782A81CEB300575FF4 /* SafariExtensionHandler.swift in Sources */,
+				5779C2EB2A8286CE00575FF4 /* MessageHandler.swift in Sources */,
+				5779C2F12A829B3E00575FF4 /* Entity+CoreDataClass.swift in Sources */,
+				5779C2DF2A81ECCC00575FF4 /* SafariPopupManager.swift in Sources */,
+				57A10C542A86B341007A2027 /* RFXHandler.swift in Sources */,
+				5779C2F42A829B6800575FF4 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +854,7 @@
 				DEVELOPMENT_TEAM = J59EU3L7QB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Refermate/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Refermate;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -679,6 +891,7 @@
 				DEVELOPMENT_TEAM = J59EU3L7QB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Refermate/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Refermate;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -823,6 +1036,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5779C2EC2A829A9700575FF4 /* RefermateStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5779C2ED2A829A9700575FF4 /* RefermateStore.xcdatamodel */,
+			);
+			currentVersion = 5779C2ED2A829A9700575FF4 /* RefermateStore.xcdatamodel */;
+			path = RefermateStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5779C2382A81CEB200575FF4 /* Project object */;
 }

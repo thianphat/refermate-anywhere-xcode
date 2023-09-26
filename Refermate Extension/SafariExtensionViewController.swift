@@ -9,10 +9,15 @@ import SafariServices
 
 class SafariExtensionViewController: SFSafariExtensionViewController {
     
+    @IBOutlet var backButton : NSButton!
+    @IBOutlet var closeButton : NSButton!
     static let shared: SafariExtensionViewController = {
         let shared = SafariExtensionViewController()
-        shared.preferredContentSize = NSSize(width:320, height:240)
+        shared.preferredContentSize = NSSize(width:355, height:650)
         return shared
     }()
-
+    
+    override func viewDidLoad() {
+       // MessageHandler.shared.popupScript.loadApplication()
+    }
 }

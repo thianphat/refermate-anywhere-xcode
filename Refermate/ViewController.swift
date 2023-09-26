@@ -14,9 +14,20 @@ let extensionBundleIdentifier = "com.irwinproject.Refermate.Extension"
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
     @IBOutlet var webView: WKWebView!
-
+    var isExtensionEnabled: Bool = UserDefaults.standard.bool(forKey: "Installed")
+    let timer = DispatchSource.makeTimerSource()
+    lazy var persistentContainer: NSPersistentContainer = {
+        let container = NSPersistentContainer(name: "RefermateStore") // Replace with your data model file name
+        container.loadPersistentStores(completionHandler: { (_, error) in
+            if let error = error {
+                fatalError("Failed to load Core Data stack: \(error)")
+            }
+        })
+        return container
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         self.webView.navigationDelegate = self
 
@@ -26,28 +37,58 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
-            guard let state = state, error == nil else {
-                // Insert code to inform the user that something went wrong.
-                return
-            }
+        if #available(macOS 13, *) {
+            webView.evaluateJavaScript("show('mac', \(isExtensionEnabled), true)")
 
-            DispatchQueue.main.async {
-                if #available(macOS 13, *) {
-                    webView.evaluateJavaScript("show(\(state.isEnabled), true)")
-                } else {
-                    webView.evaluateJavaScript("show(\(state.isEnabled), false)")
+        } else {
+            webView.evaluateJavaScript("show('mac', \(isExtensionEnabled), false)")
+
+        }
+        timer.schedule(deadline: .now(), repeating: .seconds(1), leeway: .seconds(1))
+        timer.setEventHandler{
+            SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
+                
+                guard let state = state, error == nil else {
+                    // Insert code to inform the user that something went wrong.
+                    return
+                }
+                guard state.isEnabled != self.isExtensionEnabled else {
+                    return //No change to the state dont do anything
+                }
+                self.isExtensionEnabled = state.isEnabled
+                UserDefaults.standard.set(self.isExtensionEnabled, forKey: "Installed")
+                DispatchQueue.main.async {
+                    if !self.isExtensionEnabled {
+                        print("opening uninstall window")
+                        NSWorkspace.shared.open(URL(string: "https://www.refermate.com/extension_uninstalled")!)
+                    } else {
+                        print("opening install window")
+                        NSWorkspace.shared.open(URL(string: "https://www.refermate.com/extension_installed")!)
+                    }
+                    if #available(macOS 13, *) {
+                        webView.evaluateJavaScript("show('mac', \(state.isEnabled), true)")
+    
+                    } else {
+                        webView.evaluateJavaScript("show('mac', \(state.isEnabled), false)")
+    
+                    }
                 }
             }
         }
+        timer.resume()
     }
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if (message.body as! String != "open-preferences") {
-            return;
+        if (message.body as! String == "open-preferences") {
+            SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+                guard error == nil else {
+                    // Insert code to inform the user that something went wrong.
+                    return
+                }
+            }
         }
-
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+        
+        if (message.body as! String == "close-app-window") {
             DispatchQueue.main.async {
                 NSApplication.shared.terminate(nil)
             }
