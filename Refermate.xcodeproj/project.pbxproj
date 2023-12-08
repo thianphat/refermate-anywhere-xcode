@@ -19,40 +19,6 @@
 		5779C2782A81CEB300575FF4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2772A81CEB300575FF4 /* SafariExtensionHandler.swift */; };
 		5779C27A2A81CEB300575FF4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2792A81CEB300575FF4 /* SafariExtensionViewController.swift */; };
 		5779C2822A81CEB300575FF4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2802A81CEB300575FF4 /* SafariExtensionViewController.xib */; };
-		5779C2BB2A81EC5100575FF4 /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2942A81EC5000575FF4 /* background.bundle.js */; };
-		5779C2BC2A81EC5100575FF4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2952A81EC5000575FF4 /* popup.html */; };
-		5779C2BD2A81EC5100575FF4 /* 558566d84fb0bd44a86c.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2962A81EC5000575FF4 /* 558566d84fb0bd44a86c.woff2 */; };
-		5779C2BE2A81EC5100575FF4 /* injectAutoApply.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2972A81EC5000575FF4 /* injectAutoApply.bundle.js */; };
-		5779C2BF2A81EC5100575FF4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2982A81EC5000575FF4 /* manifest.json */; };
-		5779C2C02A81EC5100575FF4 /* f97373ae92fbfbb95c50.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2992A81EC5000575FF4 /* f97373ae92fbfbb95c50.woff2 */; };
-		5779C2C12A81EC5100575FF4 /* 6ad83effd3a7afb53a15.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29A2A81EC5000575FF4 /* 6ad83effd3a7afb53a15.png */; };
-		5779C2C22A81EC5100575FF4 /* dc1166bf922ba14bec8d.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29C2A81EC5000575FF4 /* dc1166bf922ba14bec8d.svg */; };
-		5779C2C32A81EC5100575FF4 /* 4bc562028354f5941b42.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29D2A81EC5000575FF4 /* 4bc562028354f5941b42.woff2 */; };
-		5779C2C42A81EC5100575FF4 /* 86ea8392c20478a0d46e.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C29E2A81EC5000575FF4 /* 86ea8392c20478a0d46e.woff2 */; };
-		5779C2C52A81EC5100575FF4 /* 835ac65f7e624a326409.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A02A81EC5000575FF4 /* 835ac65f7e624a326409.png */; };
-		5779C2C62A81EC5100575FF4 /* 1eadb587990a6bc2c0ba.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A12A81EC5000575FF4 /* 1eadb587990a6bc2c0ba.svg */; };
-		5779C2C72A81EC5100575FF4 /* 91e9869927d002aceb8c.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A22A81EC5000575FF4 /* 91e9869927d002aceb8c.svg */; };
-		5779C2C82A81EC5100575FF4 /* e0860da7aaefd6dd2a0c.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A32A81EC5000575FF4 /* e0860da7aaefd6dd2a0c.woff2 */; };
-		5779C2C92A81EC5100575FF4 /* fd9ddee319325e3c92c8.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A42A81EC5000575FF4 /* fd9ddee319325e3c92c8.svg */; };
-		5779C2CA2A81EC5100575FF4 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A52A81EC5000575FF4 /* img */; };
-		5779C2CB2A81EC5100575FF4 /* 524b69ba6d9abb32f085.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A62A81EC5000575FF4 /* 524b69ba6d9abb32f085.woff2 */; };
-		5779C2CC2A81EC5100575FF4 /* cc5663daff99e864c43d.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A72A81EC5000575FF4 /* cc5663daff99e864c43d.woff2 */; };
-		5779C2CD2A81EC5100575FF4 /* 4b9e7d5f95a278e2d22e.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A82A81EC5000575FF4 /* 4b9e7d5f95a278e2d22e.woff2 */; };
-		5779C2CE2A81EC5100575FF4 /* 90f90b13a872d0d174bb.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2A92A81EC5000575FF4 /* 90f90b13a872d0d174bb.woff2 */; };
-		5779C2CF2A81EC5100575FF4 /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AA2A81EC5000575FF4 /* popup.bundle.js */; };
-		5779C2D02A81EC5100575FF4 /* 2230fb2acd8ec402888e.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AB2A81EC5000575FF4 /* 2230fb2acd8ec402888e.woff2 */; };
-		5779C2D12A81EC5100575FF4 /* 3cac30d2e914848c63db.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AC2A81EC5000575FF4 /* 3cac30d2e914848c63db.woff2 */; };
-		5779C2D22A81EC5100575FF4 /* 873f5272572749b65934.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AD2A81EC5000575FF4 /* 873f5272572749b65934.woff2 */; };
-		5779C2D32A81EC5100575FF4 /* 85baf9766733d42bd24f.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AE2A81EC5000575FF4 /* 85baf9766733d42bd24f.png */; };
-		5779C2D42A81EC5100575FF4 /* ed67b41ce63b521f3e77.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2AF2A81EC5000575FF4 /* ed67b41ce63b521f3e77.svg */; };
-		5779C2D52A81EC5100575FF4 /* 0fdfca52c4373f2137e6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B02A81EC5000575FF4 /* 0fdfca52c4373f2137e6.svg */; };
-		5779C2D62A81EC5100575FF4 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B12A81EC5000575FF4 /* fonts */; };
-		5779C2D72A81EC5100575FF4 /* 348776f0e67911f4f72e.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B32A81EC5100575FF4 /* 348776f0e67911f4f72e.svg */; };
-		5779C2D82A81EC5100575FF4 /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B42A81EC5100575FF4 /* contentScript.bundle.js */; };
-		5779C2D92A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B62A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg */; };
-		5779C2DB2A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B82A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg */; };
-		5779C2DC2A81EC5100575FF4 /* 5167c5352bbc00240c3a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2B92A81EC5100575FF4 /* 5167c5352bbc00240c3a.png */; };
-		5779C2DD2A81EC5100575FF4 /* 172d496f570e066f9014.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5779C2BA2A81EC5100575FF4 /* 172d496f570e066f9014.svg */; };
 		5779C2DF2A81ECCC00575FF4 /* SafariPopupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2DE2A81ECCC00575FF4 /* SafariPopupManager.swift */; };
 		5779C2E52A81F86900575FF4 /* JsonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2E42A81F86900575FF4 /* JsonTools.swift */; };
 		5779C2E72A820A7C00575FF4 /* SafariTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2E62A820A7C00575FF4 /* SafariTools.swift */; };
@@ -61,7 +27,6 @@
 		5779C2F12A829B3E00575FF4 /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2EF2A829B3E00575FF4 /* Entity+CoreDataClass.swift */; };
 		5779C2F22A829B3E00575FF4 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2F02A829B3E00575FF4 /* Entity+CoreDataProperties.swift */; };
 		5779C2F42A829B6800575FF4 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779C2F32A829B6800575FF4 /* Storage.swift */; };
-		578249872A8E708C00A6D56A /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 578249862A8E708C00A6D56A /* ToolbarItemIcon.pdf */; };
 		579B4D102A8D2B1E0023C03F /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0A2A8D2B1E0023C03F /* checkmark.png */; };
 		579B4D112A8D2B1E0023C03F /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0B2A8D2B1E0023C03F /* arrow.png */; };
 		579B4D122A8D2B1E0023C03F /* refermate-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 579B4D0C2A8D2B1E0023C03F /* refermate-logo.png */; };
@@ -135,40 +100,6 @@
 		5779C2812A81CEB300575FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		5779C2832A81CEB300575FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5779C2842A81CEB300575FF4 /* Refermate_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Refermate_Extension.entitlements; sourceTree = "<group>"; };
-		5779C2942A81EC5000575FF4 /* background.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.bundle.js; sourceTree = "<group>"; };
-		5779C2952A81EC5000575FF4 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		5779C2962A81EC5000575FF4 /* 558566d84fb0bd44a86c.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 558566d84fb0bd44a86c.woff2; sourceTree = "<group>"; };
-		5779C2972A81EC5000575FF4 /* injectAutoApply.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = injectAutoApply.bundle.js; sourceTree = "<group>"; };
-		5779C2982A81EC5000575FF4 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		5779C2992A81EC5000575FF4 /* f97373ae92fbfbb95c50.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = f97373ae92fbfbb95c50.woff2; sourceTree = "<group>"; };
-		5779C29A2A81EC5000575FF4 /* 6ad83effd3a7afb53a15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6ad83effd3a7afb53a15.png; sourceTree = "<group>"; };
-		5779C29C2A81EC5000575FF4 /* dc1166bf922ba14bec8d.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dc1166bf922ba14bec8d.svg; sourceTree = "<group>"; };
-		5779C29D2A81EC5000575FF4 /* 4bc562028354f5941b42.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4bc562028354f5941b42.woff2; sourceTree = "<group>"; };
-		5779C29E2A81EC5000575FF4 /* 86ea8392c20478a0d46e.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 86ea8392c20478a0d46e.woff2; sourceTree = "<group>"; };
-		5779C2A02A81EC5000575FF4 /* 835ac65f7e624a326409.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 835ac65f7e624a326409.png; sourceTree = "<group>"; };
-		5779C2A12A81EC5000575FF4 /* 1eadb587990a6bc2c0ba.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1eadb587990a6bc2c0ba.svg; sourceTree = "<group>"; };
-		5779C2A22A81EC5000575FF4 /* 91e9869927d002aceb8c.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 91e9869927d002aceb8c.svg; sourceTree = "<group>"; };
-		5779C2A32A81EC5000575FF4 /* e0860da7aaefd6dd2a0c.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = e0860da7aaefd6dd2a0c.woff2; sourceTree = "<group>"; };
-		5779C2A42A81EC5000575FF4 /* fd9ddee319325e3c92c8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fd9ddee319325e3c92c8.svg; sourceTree = "<group>"; };
-		5779C2A52A81EC5000575FF4 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
-		5779C2A62A81EC5000575FF4 /* 524b69ba6d9abb32f085.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 524b69ba6d9abb32f085.woff2; sourceTree = "<group>"; };
-		5779C2A72A81EC5000575FF4 /* cc5663daff99e864c43d.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc5663daff99e864c43d.woff2; sourceTree = "<group>"; };
-		5779C2A82A81EC5000575FF4 /* 4b9e7d5f95a278e2d22e.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4b9e7d5f95a278e2d22e.woff2; sourceTree = "<group>"; };
-		5779C2A92A81EC5000575FF4 /* 90f90b13a872d0d174bb.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 90f90b13a872d0d174bb.woff2; sourceTree = "<group>"; };
-		5779C2AA2A81EC5000575FF4 /* popup.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.bundle.js; sourceTree = "<group>"; };
-		5779C2AB2A81EC5000575FF4 /* 2230fb2acd8ec402888e.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2230fb2acd8ec402888e.woff2; sourceTree = "<group>"; };
-		5779C2AC2A81EC5000575FF4 /* 3cac30d2e914848c63db.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3cac30d2e914848c63db.woff2; sourceTree = "<group>"; };
-		5779C2AD2A81EC5000575FF4 /* 873f5272572749b65934.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 873f5272572749b65934.woff2; sourceTree = "<group>"; };
-		5779C2AE2A81EC5000575FF4 /* 85baf9766733d42bd24f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 85baf9766733d42bd24f.png; sourceTree = "<group>"; };
-		5779C2AF2A81EC5000575FF4 /* ed67b41ce63b521f3e77.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ed67b41ce63b521f3e77.svg; sourceTree = "<group>"; };
-		5779C2B02A81EC5000575FF4 /* 0fdfca52c4373f2137e6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0fdfca52c4373f2137e6.svg; sourceTree = "<group>"; };
-		5779C2B12A81EC5000575FF4 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
-		5779C2B32A81EC5100575FF4 /* 348776f0e67911f4f72e.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 348776f0e67911f4f72e.svg; sourceTree = "<group>"; };
-		5779C2B42A81EC5100575FF4 /* contentScript.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentScript.bundle.js; sourceTree = "<group>"; };
-		5779C2B62A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 84f9a968553faaa7a88e.svg; sourceTree = "<group>"; };
-		5779C2B82A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2a511ee240dd60bdb75e.svg; sourceTree = "<group>"; };
-		5779C2B92A81EC5100575FF4 /* 5167c5352bbc00240c3a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5167c5352bbc00240c3a.png; sourceTree = "<group>"; };
-		5779C2BA2A81EC5100575FF4 /* 172d496f570e066f9014.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 172d496f570e066f9014.svg; sourceTree = "<group>"; };
 		5779C2DE2A81ECCC00575FF4 /* SafariPopupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariPopupManager.swift; sourceTree = "<group>"; };
 		5779C2E42A81F86900575FF4 /* JsonTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTools.swift; sourceTree = "<group>"; };
 		5779C2E62A820A7C00575FF4 /* SafariTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariTools.swift; sourceTree = "<group>"; };
@@ -178,7 +109,6 @@
 		5779C2F02A829B3E00575FF4 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5779C2F32A829B6800575FF4 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		5779C2F72A83DAAD00575FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		578249862A8E708C00A6D56A /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ToolbarItemIcon.pdf; path = ../../../../../Documents/ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		579B4D0A2A8D2B1E0023C03F /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
 		579B4D0B2A8D2B1E0023C03F /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		579B4D0C2A8D2B1E0023C03F /* refermate-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refermate-logo.png"; sourceTree = "<group>"; };
@@ -317,41 +247,6 @@
 		5779C27B2A81CEB300575FF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				578249862A8E708C00A6D56A /* ToolbarItemIcon.pdf */,
-				5779C2B02A81EC5000575FF4 /* 0fdfca52c4373f2137e6.svg */,
-				5779C2A12A81EC5000575FF4 /* 1eadb587990a6bc2c0ba.svg */,
-				5779C2B82A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg */,
-				5779C2AC2A81EC5000575FF4 /* 3cac30d2e914848c63db.woff2 */,
-				5779C2A82A81EC5000575FF4 /* 4b9e7d5f95a278e2d22e.woff2 */,
-				5779C29D2A81EC5000575FF4 /* 4bc562028354f5941b42.woff2 */,
-				5779C29A2A81EC5000575FF4 /* 6ad83effd3a7afb53a15.png */,
-				5779C2B62A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg */,
-				5779C2AE2A81EC5000575FF4 /* 85baf9766733d42bd24f.png */,
-				5779C29E2A81EC5000575FF4 /* 86ea8392c20478a0d46e.woff2 */,
-				5779C2A92A81EC5000575FF4 /* 90f90b13a872d0d174bb.woff2 */,
-				5779C2A22A81EC5000575FF4 /* 91e9869927d002aceb8c.svg */,
-				5779C2BA2A81EC5100575FF4 /* 172d496f570e066f9014.svg */,
-				5779C2A62A81EC5000575FF4 /* 524b69ba6d9abb32f085.woff2 */,
-				5779C2A02A81EC5000575FF4 /* 835ac65f7e624a326409.png */,
-				5779C2AD2A81EC5000575FF4 /* 873f5272572749b65934.woff2 */,
-				5779C2AB2A81EC5000575FF4 /* 2230fb2acd8ec402888e.woff2 */,
-				5779C2B92A81EC5100575FF4 /* 5167c5352bbc00240c3a.png */,
-				5779C2B32A81EC5100575FF4 /* 348776f0e67911f4f72e.svg */,
-				5779C2962A81EC5000575FF4 /* 558566d84fb0bd44a86c.woff2 */,
-				5779C2942A81EC5000575FF4 /* background.bundle.js */,
-				5779C2A72A81EC5000575FF4 /* cc5663daff99e864c43d.woff2 */,
-				5779C2B42A81EC5100575FF4 /* contentScript.bundle.js */,
-				5779C29C2A81EC5000575FF4 /* dc1166bf922ba14bec8d.svg */,
-				5779C2A32A81EC5000575FF4 /* e0860da7aaefd6dd2a0c.woff2 */,
-				5779C2AF2A81EC5000575FF4 /* ed67b41ce63b521f3e77.svg */,
-				5779C2992A81EC5000575FF4 /* f97373ae92fbfbb95c50.woff2 */,
-				5779C2A42A81EC5000575FF4 /* fd9ddee319325e3c92c8.svg */,
-				5779C2B12A81EC5000575FF4 /* fonts */,
-				5779C2A52A81EC5000575FF4 /* img */,
-				5779C2972A81EC5000575FF4 /* injectAutoApply.bundle.js */,
-				5779C2982A81EC5000575FF4 /* manifest.json */,
-				5779C2AA2A81EC5000575FF4 /* popup.bundle.js */,
-				5779C2952A81EC5000575FF4 /* popup.html */,
 			);
 			name = Resources;
 			path = "../../refermate-anywhere-v2/Resources";
@@ -528,43 +423,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5779C2CC2A81EC5100575FF4 /* cc5663daff99e864c43d.woff2 in Resources */,
-				5779C2D22A81EC5100575FF4 /* 873f5272572749b65934.woff2 in Resources */,
-				5779C2D02A81EC5100575FF4 /* 2230fb2acd8ec402888e.woff2 in Resources */,
-				5779C2C42A81EC5100575FF4 /* 86ea8392c20478a0d46e.woff2 in Resources */,
-				5779C2C22A81EC5100575FF4 /* dc1166bf922ba14bec8d.svg in Resources */,
 				5779C2822A81CEB300575FF4 /* SafariExtensionViewController.xib in Resources */,
-				5779C2D82A81EC5100575FF4 /* contentScript.bundle.js in Resources */,
-				5779C2CB2A81EC5100575FF4 /* 524b69ba6d9abb32f085.woff2 in Resources */,
-				5779C2D52A81EC5100575FF4 /* 0fdfca52c4373f2137e6.svg in Resources */,
-				5779C2D62A81EC5100575FF4 /* fonts in Resources */,
-				5779C2C72A81EC5100575FF4 /* 91e9869927d002aceb8c.svg in Resources */,
-				5779C2DC2A81EC5100575FF4 /* 5167c5352bbc00240c3a.png in Resources */,
-				5779C2D72A81EC5100575FF4 /* 348776f0e67911f4f72e.svg in Resources */,
-				5779C2BC2A81EC5100575FF4 /* popup.html in Resources */,
-				5779C2D32A81EC5100575FF4 /* 85baf9766733d42bd24f.png in Resources */,
-				5779C2CE2A81EC5100575FF4 /* 90f90b13a872d0d174bb.woff2 in Resources */,
-				578249872A8E708C00A6D56A /* ToolbarItemIcon.pdf in Resources */,
-				5779C2D42A81EC5100575FF4 /* ed67b41ce63b521f3e77.svg in Resources */,
-				5779C2BE2A81EC5100575FF4 /* injectAutoApply.bundle.js in Resources */,
-				5779C2C92A81EC5100575FF4 /* fd9ddee319325e3c92c8.svg in Resources */,
-				5779C2DD2A81EC5100575FF4 /* 172d496f570e066f9014.svg in Resources */,
-				5779C2DB2A81EC5100575FF4 /* 2a511ee240dd60bdb75e.svg in Resources */,
-				5779C2D12A81EC5100575FF4 /* 3cac30d2e914848c63db.woff2 in Resources */,
-				5779C2C32A81EC5100575FF4 /* 4bc562028354f5941b42.woff2 in Resources */,
-				5779C2C02A81EC5100575FF4 /* f97373ae92fbfbb95c50.woff2 in Resources */,
-				5779C2C82A81EC5100575FF4 /* e0860da7aaefd6dd2a0c.woff2 in Resources */,
-				5779C2CF2A81EC5100575FF4 /* popup.bundle.js in Resources */,
-				5779C2D92A81EC5100575FF4 /* 84f9a968553faaa7a88e.svg in Resources */,
-				5779C2BF2A81EC5100575FF4 /* manifest.json in Resources */,
-				5779C2C52A81EC5100575FF4 /* 835ac65f7e624a326409.png in Resources */,
-				5779C2BD2A81EC5100575FF4 /* 558566d84fb0bd44a86c.woff2 in Resources */,
-				5779C2C62A81EC5100575FF4 /* 1eadb587990a6bc2c0ba.svg in Resources */,
-				5779C2C12A81EC5100575FF4 /* 6ad83effd3a7afb53a15.png in Resources */,
-				5779C2CD2A81EC5100575FF4 /* 4b9e7d5f95a278e2d22e.woff2 in Resources */,
-				5779C2CA2A81EC5100575FF4 /* img in Resources */,
 				579B4D752A8D3E8C0023C03F /* Assets.xcassets in Resources */,
-				5779C2BB2A81EC5100575FF4 /* background.bundle.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -770,7 +630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -785,7 +645,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Refermate Extension/Refermate_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Refermate Extension/Info.plist";
@@ -816,7 +676,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Refermate Extension/Refermate_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Refermate Extension/Info.plist";
@@ -851,7 +711,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Refermate/Info.plist;
@@ -888,7 +748,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Refermate/Info.plist;
@@ -922,7 +782,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
@@ -941,7 +801,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
@@ -959,7 +819,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.RefermateUITests;
@@ -976,7 +836,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J59EU3L7QB;
+				DEVELOPMENT_TEAM = AAFZHH64X5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.irwinproject.RefermateUITests;
