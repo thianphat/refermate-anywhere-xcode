@@ -63,7 +63,7 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
                         NSWorkspace.shared.open(URL(string: "https://www.refermate.com/extension_uninstalled")!)
                     } else {
                         print("opening install window")
-                        NSWorkspace.shared.open(URL(string: "https://www.refermate.com/extension_installed")!)
+                        NSWorkspace.shared.open(URL(string: "https://refermate.com/extension_installed_apple_permissions_instructions")!)
                     }
                     if #available(macOS 13, *) {
                         webView.evaluateJavaScript("show('mac', \(state.isEnabled), true)")
