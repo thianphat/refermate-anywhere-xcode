@@ -45,6 +45,18 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
 
         }
         timer.schedule(deadline: .now(), repeating: .seconds(1), leeway: .seconds(1))
+        
+        
+        let conf = NSWorkspace.OpenConfiguration()
+        let conf2 = NSWorkspace.OpenConfiguration()
+        let installURL = URL(string: "https://refermate.com/extension_installed_apple_permissions_instructions")!
+        let uninstallURL = URL(string: "https://www.refermate.com/extension_uninstalled")!
+//        let safariURL = try FileManager.default.url(for: .applicationDirectory, in: .localDomainMask, appropriateFor: nil, create: false).appendingPathComponent("Safari.app")
+//        conf.activates = true
+        conf.createsNewApplicationInstance = true
+        conf2.createsNewApplicationInstance = false
+      
+        
         timer.setEventHandler{
             SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
                 
@@ -59,11 +71,20 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
                 UserDefaults.standard.set(self.isExtensionEnabled, forKey: "Installed")
                 DispatchQueue.main.async {
                     if !self.isExtensionEnabled {
-                        print("opening uninstall window")
-                        NSWorkspace.shared.open(URL(string: "https://www.refermate.com/extension_uninstalled")!)
-                    } else {
-                        print("opening install window")
-                        NSWorkspace.shared.open(URL(string: "https://refermate.com/extension_installed_apple_permissions_instructions")!)
+                        do {
+                            print("opening uninstall window")
+                            NSWorkspace.shared.open([uninstallURL], withApplicationAt: try FileManager.default.url(for: .applicationDirectory, in: .localDomainMask, appropriateFor: nil, create: false).appendingPathComponent("Safari.app"), configuration: conf2)
+                        } catch {
+                            print(error)
+                        }
+                        }
+                     else {
+                        do {
+                            print("opening install window")
+                            NSWorkspace.shared.open([installURL], withApplicationAt: try FileManager.default.url(for: .applicationDirectory, in: .localDomainMask, appropriateFor: nil, create: false).appendingPathComponent("Safari.app"), configuration: conf )
+                        } catch {
+                            print(error)
+                        }
                     }
                     if #available(macOS 13, *) {
                         webView.evaluateJavaScript("show('mac', \(state.isEnabled), true)")
