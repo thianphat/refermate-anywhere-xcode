@@ -72,7 +72,6 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
                 DispatchQueue.main.async {
                     if !self.isExtensionEnabled {
                         do {
-                            print("opening uninstall window")
                             NSWorkspace.shared.open([uninstallURL], withApplicationAt: try FileManager.default.url(for: .applicationDirectory, in: .localDomainMask, appropriateFor: nil, create: false).appendingPathComponent("Safari.app"), configuration: conf2)
                         } catch {
                             print(error)
@@ -80,7 +79,6 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
                         }
                      else {
                         do {
-                            print("opening install window")
                             NSWorkspace.shared.open([installURL], withApplicationAt: try FileManager.default.url(for: .applicationDirectory, in: .localDomainMask, appropriateFor: nil, create: false).appendingPathComponent("Safari.app"), configuration: conf )
                         } catch {
                             print(error)
